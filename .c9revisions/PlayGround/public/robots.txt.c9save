@@ -1,0 +1,1 @@
+{"ts":1368648825163,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"# See http://www.robotstxt.org/wc/norobots.html for documentation on how to use the robots.txt file\n#\n# To ban all spiders from the entire site uncomment the next two lines:\n# User-Agent: *\n# Disallow: /\n"]],"start1":0,"start2":0,"length1":0,"length2":204}]],"length":204}

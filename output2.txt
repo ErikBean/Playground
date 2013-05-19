@@ -1,0 +1,5 @@
+/var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/scripts/rvm: line 173: __rvm_setup: command not found
+/var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/scripts/rvm: line 174: __rvm_fix_path_from_gem_path: command not found
+/var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/scripts/rvm: line 175: __rvm_clean_path: command not found
+/var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/scripts/rvm: line 179: rvm_is_a_shell_function: command not found
+/var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/scripts/rvm: line 190: __rvm_teardown: command not found
