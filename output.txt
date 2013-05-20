@@ -1,43 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0184   184  184   184    0     0    259      0 --:--:-- --:--:-- --:--:--  2628100 13707  100 13707    0     0  17730      0 --:--:-- --:--:-- --:--:-- 17730
-Please read and follow further instructions.
-Press ENTER to continue.
-Downloading RVM from wayneeseguin branch stable
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0124   124  124   124    0     0    254      0 --:--:-- --:--:-- --:--:--  1698100 1063k  100 1063k    0     0  1206k      0 --:--:-- --:--:-- --:--:-- 1206k
-
-Upgrading the RVM installation in /var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/
-    RVM PATH line found in /var/lib/stickshift/5191550a500446942c000217/app-root/data/.bashrc /var/lib/stickshift/5191550a500446942c000217/app-root/data/.zshrc.
-    RVM sourcing line found in /var/lib/stickshift/5191550a500446942c000217/app-root/data/.bash_profile /var/lib/stickshift/5191550a500446942c000217/app-root/data/.zprofile.
-
-Upgrade Notes:
-
-
-  * WARNING: you have GEM_HOME="/var/lib/stickshift/5191550a500446942c000217/app-root/data/lib/ruby/gems" this is conflicting with RVM, make sure to:
-
-      unset GEM_HOME
-
-  * No new notes to display.
-
-# RVM:  Shell scripts enabling management of multiple ruby environments.
-# RTFM: https://rvm.io/
-# HELP: http://webchat.freenode.net/?channels=rvm (#rvm on irc.freenode.net)
-# Cheatsheet: http://cheat.errtheblog.com/s/rvm
-# Screencast: http://screencasts.org/episodes/how-to-use-rvm
-
-# In case of any issues run 'rvm requirements' or read 'rvm notes'
-
-Upgrade of RVM in /var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/ is complete.
-
-# Legumebo Magezfeld,
-#
-#   Thank you for using RVM!
-#   I sincerely hope that RVM helps to make your life easier and
-#   more enjoyable!!!
-#
-# ~Wayne
-
-
-/var/lib/stickshift/5191550a500446942c000217/app-root/data/.rvm/scripts/rvm: line 173: __rvm_setup: command not found
