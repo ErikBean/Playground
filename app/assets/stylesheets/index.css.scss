@@ -1,0 +1,127 @@
+$blue: #E0FAFF;
+$orange: #CC3000;
+$gray: #C4C4C4;
+$purple: #6a00f4;
+$margin: 16px;
+
+
+body{
+    font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino, "URW Palladio L", "Nimbus Roman No9 L", serif;
+}
+
+header, nav{
+    // display: block;// for older browsers
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+ul li, a{
+ color: black;
+ margin: 3%;
+
+}
+header hgroup{
+    h1{
+        text-align:center;
+        font-size: 300%;
+        text-shadow: 2px 2px 2px #000;
+        color: $orange;
+        padding: 0;
+        margin: 0;
+    }
+    h2{
+        text-align: center;
+        font-size: 100%;
+        padding: 2%;
+        margin: 0;
+    }
+    padding: 0;
+    margin: 0;
+} 
+// Classes
+aside.container{
+    // border: 2px solid;
+    float: left;
+    width: 19%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.expBox{
+   
+    margin:0;
+    padding:0;
+    color: white;
+    header.boxHeader{
+        float:left;
+        width: 100%;
+        padding:0;
+        margin:0;
+        button.close{//NESTING!!!
+            float:right;
+            margin: 3px 3px 0 0;
+            font: red;
+            width:20px;
+        }
+        h4.boxTitle{
+            margin: 1% 0 0 0;
+            padding: 0;
+            width: 88%;
+            
+        }
+    }
+    
+    section.expBoxInner{
+        clear: both;
+        width:100%;
+        ol{
+           // padding: 5% 5% 5% 15%;
+           position: inherit;
+           padding: 0;
+           margin: 0 0 0 10%;
+           width: 100%;
+           
+        }
+    }
+}
+div.minimized{
+   border: 2px solid;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    // min-width: 0;
+    min-height: 28px;
+}
+div.maximized{
+     min-height: 25px;
+    width: 95%;
+    height: 50%;
+    border: 2px solid;
+    border-radius: 10px;
+}
+.boxTitle{
+    margin:0;
+    padding:0;
+    float:left;
+    text-align:center;
+}
+
+// #IDs
+
+#news{
+    // background-color: rgba(0,0,0,0.2);
+    float:right;
+    width: 80%;
+    height: 800px;
+    border: 2px solid;
+    border-color: $gray;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+#newsTitle{
+    text-align: center;
+    text-decoration: underline;
+}

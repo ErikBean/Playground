@@ -1,4 +1,10 @@
 PlayGround::Application.routes.draw do
+  get "games/view"
+  get "game/view"
+  get "home/index"
+    root :to => 'home#index'
+  resources :users
+  resources :games
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

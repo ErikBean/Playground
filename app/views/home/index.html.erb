@@ -1,0 +1,59 @@
+<% stylesheet_link_tag "index"%>
+<title>Playground: Homepage</title>
+<aside class="container" id="sideBar">
+    <header>
+        <hgroup>
+        <h1>Settlers Online</h1>
+        <h2><i>This is the site's main page</i></h2>
+        </hgroup>
+    </header>
+    
+    <nav>
+    <ul>
+        <li>
+            <%=link_to 'Sign Up', new_user_path%>
+        </li>
+        <li>
+            Sign In
+        </li>
+        <li>
+            Play Now
+        </li>
+    </ul>
+    </nav> 
+    <div class="expBox maximized" id="inventory">
+        <header class="boxHeader">
+        <h4 class="boxTitle">Spells</h4>
+        <button class="close">x</button>
+        </header>
+    
+        <section class="expBoxInner">
+            
+            <ol class="spl">
+                <li>vanquish</li>
+                <li>stun</li>
+                <li>woo</li>
+            </ol>
+        </section>
+    </div>
+  
+    <div class="expBox maximized" id="inventory">
+        <header class="boxHeader">
+        <h4 class="boxTitle">Inventory</h4>
+        <button class="close">x</button>
+        </header>
+    
+        <section class="expBoxInner">
+            
+            <ol class="inv">
+                <li>sword</li>
+                <li>hammer</li>
+                <li>armor</li>
+            </ol>
+        </section>
+    </div>
+</aside>
+<div id="news">
+<h2 id="newsTitle">News and Updates</h2>
+</div> 
+

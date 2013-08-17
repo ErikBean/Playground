@@ -1,0 +1,2 @@
+{"ts":1376601305288,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1376601385377,"patch":[[{"diffs":[[1,"json.array!(@games) do |game|\n  json.extract! game, :title, :numPlayers. :size\n  json.url game_url(game, format: :json)\nend"]],"start1":0,"start2":0,"length1":0,"length2":123}]],"length":123,"saved":false}

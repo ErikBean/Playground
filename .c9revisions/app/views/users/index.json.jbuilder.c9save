@@ -1,0 +1,1 @@
+{"ts":1376601196268,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"json.array!(@users) do |user|\n  json.extract! user, :name, :email\n  json.url user_url(user, format: :json)\nend"]],"start1":0,"start2":0,"length1":0,"length2":110}]],"length":110}

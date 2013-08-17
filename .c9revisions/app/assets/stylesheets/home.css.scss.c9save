@@ -1,0 +1,19 @@
+{"ts":1375568439541,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"// Place all the styles related to the home controller here.\n// They will automatically be included in application.css.\n// You can use Sass (SCSS) here: http://sass-lang.com/\n"]],"start1":0,"start2":0,"length1":0,"length2":175}]],"length":175}
+{"contributors":[],"silentsave":false,"ts":1375568377869,"patch":[[{"diffs":[[0,"ng.com/\n"],[1,"\ntitle {\n}"]],"start1":167,"start2":167,"length1":8,"length2":18}]],"length":185,"saved":false}
+{"ts":1375568405810,"patch":[[{"diffs":[[0,"title {\n"],[1,"    font-size:200%;\n    text-align: center;\n"],[0,"}"]],"start1":176,"start2":176,"length1":9,"length2":53}]],"length":229,"saved":false}
+{"ts":1375568830113,"patch":[[{"diffs":[[0,"m/\n\n"],[-1,"title {\n    font-size:200%;\n    text-align: center;\n}"]],"start1":172,"start2":172,"length1":57,"length2":4}]],"length":176,"saved":false}
+{"ts":1375568900702,"patch":[[{"diffs":[[0,"g.com/\n\n"],[1,"h1{\n    font-size:200%;\n    text-align: center;\n}"]],"start1":168,"start2":168,"length1":8,"length2":57}]],"length":225,"saved":false}
+{"ts":1375569046023,"patch":[[{"diffs":[[0,"m/\n\n"],[-1,"h1{\n    font-size:200%"],[1,"$blue: #3bbfce;\n$margin: 16px;\nh1{\n    color: $blue"],[0,";\n  "]],"start1":172,"start2":172,"length1":30,"length2":59}]],"length":254,"saved":false}
+{"ts":1375570309488,"patch":[[{"diffs":[[0,"enter;\n}"],[1,"\nnav{\n    text\n}"]],"start1":246,"start2":246,"length1":8,"length2":24}]],"length":270,"saved":false}
+{"ts":1375570347907,"patch":[[{"diffs":[[0,"av{\n    "],[-1,"text"],[1,"padding-left: 50%;"],[0,"\n}"]],"start1":256,"start2":256,"length1":14,"length2":28}]],"length":284,"saved":false}
+{"ts":1375573721630,"patch":[[{"diffs":[[0,": 16px;\n"],[1,"\nnav{\n    padding-left: 50%;\n}\n.Header "],[0,"h1{\n    "]],"start1":199,"start2":199,"length1":16,"length2":55},{"diffs":[[0,"r;\n}"],[-1,"\nnav{\n    padding-left: 50%;\n}"]],"start1":289,"start2":289,"length1":34,"length2":4}]],"length":293,"saved":false}
+{"ts":1375573727076,"patch":[[{"diffs":[[0,"\n}\n."],[-1,"H"],[1,"h"],[0,"eade"]],"start1":235,"start2":235,"length1":9,"length2":9}]],"length":293,"saved":false}
+{"ts":1375573787153,"patch":[[{"diffs":[[0,"50%;\n}\n."],[-1,"h"],[1,"H"],[0,"eader h1"]],"start1":231,"start2":231,"length1":17,"length2":17}]],"length":293,"saved":false}
+{"ts":1375574008594,"patch":[[{"diffs":[[0,"enter;\n}"],[1,"   "]],"start1":285,"start2":285,"length1":8,"length2":11}]],"length":296,"saved":false}
+{"ts":1375574179682,"patch":[[{"diffs":[[0,"m/\n\n"],[-1,"$blue: #3bbfce;\n$margin: 16px;\n\nnav{\n    padding-left: 50%;\n}\n.Header h1{\n    color: $blue;\n    text-align: center;\n}   "]],"start1":172,"start2":172,"length1":124,"length2":4}]],"length":176,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1375575747033,"patch":[[{"diffs":[[0,"ng.com/\n"],[1,"\nbody{\n    background:black;\n}"]],"start1":167,"start2":167,"length1":8,"length2":38}]],"length":205,"saved":false}
+{"ts":1375575751672,"patch":[[{"diffs":[[0,"kground:"],[1," "],[0,"black;\n}"]],"start1":189,"start2":189,"length1":16,"length2":17}]],"length":206,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1375577189979,"patch":[[{"diffs":[[0,"nd: "],[-1,"black"],[1,"#000000"],[0,";\n}"]],"start1":194,"start2":194,"length1":12,"length2":14}]],"length":208,"saved":false}
+{"ts":1375577345495,"patch":[[{"diffs":[[0,"m/\n\n"],[-1,"body"],[1,"html"],[0,"{\n  "]],"start1":172,"start2":172,"length1":12,"length2":12}]],"length":208,"saved":false}
+{"ts":1375577366370,"patch":[[{"diffs":[[0,"m/\n\n"],[-1,"html"],[1,"body"],[0,"{\n  "]],"start1":172,"start2":172,"length1":12,"length2":12}]],"length":208,"saved":false}
+{"ts":1375577385882,"patch":[[{"diffs":[[0,"m/\n\n"],[-1,"body{\n    background: #000000;\n}"]],"start1":172,"start2":172,"length1":36,"length2":4}]],"length":176,"saved":false}
