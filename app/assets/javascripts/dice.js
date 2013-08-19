@@ -46,7 +46,6 @@ function drawDice(diceSize) {
 function drawDot(x,y,dotSize) {
 	c.beginPath();
     var n=dotSize;
-    // alert(n);
 	c.arc(x,y,n,0,Math.PI*2,true);
 	c.closePath();
 	c.fill();
