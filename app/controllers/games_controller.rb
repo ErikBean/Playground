@@ -1,18 +1,24 @@
 class GamesController < ApplicationController
-  before_action :set_game, only: [:show, :edit, :update, :destroy]
+
+before_action :set_game, only: [:show, :edit, :update, :destroy]
+
   def index
     @games=Game.all
   end
   
   def show
+
   end
   
   def new
       @game=Game.new
+        @board= Board.new
   end
   def create
+    
     @game = Game.new(game_params)
-
+    @board= Board.new(1)
+    
     respond_to do |format|
       if @game.save
         format.html { redirect_to @game, notice: 'game was successfully created.' }
@@ -35,6 +41,7 @@ class GamesController < ApplicationController
     def set_game
       @game = Game.find(params[:id])
     end
+    
     def game_params
         params.require(:game).permit(:title, :numPlayers, :size)
     end

@@ -15,9 +15,6 @@ rails s -b $IP -p $PORT
 located at URL:
 http://playground.erikbean.c9.io
 
-<script>
-
-$( "button" ).click(function() {
-  $( this ).slideUp();
-});
-</script>
+stock images from:
+http://www.sxc.hu/
+manipulated with GIMP image editor
